@@ -223,6 +223,17 @@ Start frontend:
 ```bash
 cd frontend
 npm run dev
+
+If the browser throws a Vite client parsing error such as `Unexpected token '('` (often from `@vite/client`), use this fallback command instead:
+
+```bash
+cd frontend
+pnpm run dev:compat:all
+```
+
+This runs a compatibility flow that avoids the failing dev-client path.
+The fallback serves the app on `http://localhost:5173`.
+If you make code changes while using fallback mode, stop and run the same command again to rebuild.
 ```
 
 Commit changes:

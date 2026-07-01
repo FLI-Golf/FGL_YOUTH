@@ -12,7 +12,7 @@ return {
 	assets: new Set(["fli-logo.svg","fliGolf_rwb-01.png"]),
 	mimeTypes: {".svg":"image/svg+xml",".png":"image/png"},
 	_: {
-		client: {start:"_app/immutable/entry/start.BHdTwc2S.js",app:"_app/immutable/entry/app.2I0GELZL.js",imports:["_app/immutable/entry/start.BHdTwc2S.js","_app/immutable/chunks/Bli3pg-G.js","_app/immutable/chunks/jHh0GSUA.js","_app/immutable/entry/app.2I0GELZL.js","_app/immutable/chunks/jHh0GSUA.js","_app/immutable/chunks/DYl5dUZ5.js","_app/immutable/chunks/xihTtKlq.js"],stylesheets:[],fonts:[],uses_env_dynamic_public:false},
+		client: {start:"_app/immutable/entry/start.BfNtw5XJ.js",app:"_app/immutable/entry/app.DN9rAJoc.js",imports:["_app/immutable/entry/start.BfNtw5XJ.js","_app/immutable/chunks/CzK2P4iI.js","_app/immutable/chunks/LWJNK0TC.js","_app/immutable/entry/app.DN9rAJoc.js","_app/immutable/chunks/LWJNK0TC.js","_app/immutable/chunks/DYl5dUZ5.js","_app/immutable/chunks/xihTtKlq.js"],stylesheets:[],fonts:[],uses_env_dynamic_public:false},
 		nodes: [
 			__memo(() => import('../server/nodes/0.js')),
 			__memo(() => import('../server/nodes/1.js')),

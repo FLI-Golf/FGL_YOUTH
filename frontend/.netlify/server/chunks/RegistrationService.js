@@ -1,0 +1,2 @@
+import "./pb.js";
+export {};
